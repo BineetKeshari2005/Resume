@@ -32,16 +32,13 @@ const Hero = () => {
                 </p>
                 <div className="flex items-center gap-9 mt-14 ">
                   <span className='text-smallTextColor text-[15px] font-[600] '>Follow me:</span>
-                  <span><a href="#youtube"
-                   className='text-smallTextColor text-[18px] font-[600]'><i class="ri-youtube-line"></i></a>
-                  </span>
-                  <span><a href="#github"
+                  <span><a href="https://github.com/BineetKeshari2005"
                    className='text-smallTextColor text-[18px] font-[600]'><i class="ri-github-fill"></i></a>
                   </span>
-                  <span><a href="#linkedin"
+                  <span><a href="https://www.linkedin.com/in/bineet-keshari-799819323/"
                    className='text-smallTextColor text-[18px] font-[600]'><i class="ri-linkedin-fill"></i></a>
                   </span>
-                  <span><a href="#instagram"
+                  <span><a href="https://www.instagram.com/bineetkeshari/"
                    className='text-smallTextColor text-[18px] font-[600]'><i class="ri-instagram-line"></i></a>
                   </span>
                 </div>
