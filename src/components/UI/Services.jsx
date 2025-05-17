@@ -10,7 +10,7 @@ const Services = () => {
         <div className="container lg:pt-5">
             <div className="text-center">
                 <h2 className='text-headingColor font-[800] text-[2.4rem] mb-5' >What do I help</h2>
-                <p className='lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio deserunt corporis ad assumenda sunt odit dignissimos reprehenderit hic magnam aliquam, maiores inventore et voluptatibus quam repellat aut eos, fuga laudantium!</p>
+                <h3 className='lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7'>Developing intuitive and elegant user centered  web experiences that look great and run smoothly on any device.</h3>
             </div>
             <div className="flex flex-col justify-center sm:py-12">
                 <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
@@ -30,8 +30,8 @@ const Services = () => {
                                                 <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white
                                                 group-hover:font-[600] text-xl'>Frontend Development</h3>
 
-                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sit provident tempora, pariatur quidem veniam sed voluptate, excepturi blanditiis minima commodi! Corporis beatae quo vero, delectus fugit est eaque ducimus.
+                                            <p className='text-[15px] text-smallTextColor group-hover:text-white font-[500] leading-7'>
+                                            Building responsive and interactive websites using clean, efficient code. Skilled in HTML, Tailwind CSS, JavaScript , and React  to  create seamless user experiences that work smoothly  on  all  devices.
                                             </p>
                                         </div>
                                     </div>
@@ -58,8 +58,8 @@ const Services = () => {
                                                 <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white
                                                 group-hover:font-[600] text-xl'>Backend Development</h3>
 
-                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sit provident tempora, pariatur quidem veniam sed voluptate, excepturi blanditiis minima commodi! Corporis beatae quo vero, delectus fugit est eaque ducimus.
+                                            <p className='text-[15px] text-smallTextColor group-hover:text-white font-[500] leading-7'>
+                                            Explored backend development on a small scale as part of project features. Used MongoDB to set up a basic database for storing user information, created and tested simple APIs using Postman, and built a functional component for interacting with a chatbot.
                                             </p>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@ const Services = () => {
 
                         <div className="mt-6 sm:mt-0 sm:mb-12 ">
                             <div className="flex items-center flex-col sm:flex-row ">
-                                <div className="flex justify-right w-full mx-auto items-center">
+                                <div className="flex justify-start w-full mx-auto items-center">
                                     <div className="w-full sm:w-1/2 sm:pl-8 ">
                                         <div 
                                             data-aos='fade-right' 
@@ -86,8 +86,8 @@ const Services = () => {
                                                 <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white
                                                 group-hover:font-[600] text-xl'>UI/UX Design</h3>
 
-                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sit provident tempora, pariatur quidem veniam sed voluptate, excepturi blanditiis minima commodi! Corporis beatae quo vero, delectus fugit est eaque ducimus.
+                                            <p className='text-[15px] text-smallTextColor group-hover:text-white font-[500] leading-7'>
+                                            Proficient in Figma for designing wireframes, prototypes, and visuals that improve usability and accessibility. Experienced in user research, creating user flows, and collaborating with developers to ensure designs are implemented effectively.
                                             </p>
                                         </div>
                                     </div>
@@ -101,7 +101,7 @@ const Services = () => {
                             </div>                
                         </div>
 
-                        <div className="mt-6 sm:mt-0 sm:mb-12 ">
+                        {/* <div className="mt-6 sm:mt-0 sm:mb-12 ">
                             <div className="flex items-center flex-col sm:flex-row ">
                                 <div className="flex justify-end w-full mx-auto items-center">
                                     <div className="w-full sm:w-1/2 sm:pl-8 ">
@@ -126,7 +126,7 @@ const Services = () => {
                                     </figure>
                                 </div>
                             </div>                
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

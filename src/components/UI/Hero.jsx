@@ -12,7 +12,6 @@ const Hero = () => {
                 <h5 data-aos='fade-right' data-aos-duration ='1500' className='text-headingColor font-[600] text-[16px]'>Hello Welcome</h5>
                 <h1 data-aos='fade-up' data-aos-duration ='1500'  className='text-headingColor font-[800] text-[1.8 rem] sm:text-[40px]
                 leading-[35px] sm:leading-[46px] mt-5'>I'm Bineet Keshari <br/> Software Developer</h1>
-
               <div 
                 data-aos='fade-up' 
                 data-aos-duration ='1800' 
@@ -22,27 +21,27 @@ const Hero = () => {
                     <button className='bg-primaryColor text-white font-[500] flex items-center gap-2
                     hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'><i class="ri-mail-line"></i>Hire me</button>
                   </a>
-                  <a href="#portfolio" className='text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor'>See Portfolio</a>
+                  <a href="#portfolio" className='text-smallTextColor font-[600] text-[16px] border-b border-dashed border-smallTextColor'>See Portfolio</a>
                 </div>
                 <p data-aos='fade-left' 
                   data-aos-duration ='1500'
                   className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
                   >
                   <span><i class="ri-apps-2-line"></i></span>  
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eveniet sint accusantium est asperiores facilis ab magnam enim ullam quis, harum repellendus, consectetur pariatur quos fugit doloribus repellat quibusdam dicta.
+                  I'm a Frontend Developer and UI/UX Designer (with a little bit knowledge of Backend) with a passion for building visually appealing and easy-to-use websites. I work with tools like HTML, CSS, JavaScript, React, and Figma to make smooth and user-friendly web experiences.
                 </p>
                 <div className="flex items-center gap-9 mt-14 ">
                   <span className='text-smallTextColor text-[15px] font-[600] '>Follow me:</span>
                   <span><a href="#youtube"
                    className='text-smallTextColor text-[18px] font-[600]'><i class="ri-youtube-line"></i></a>
                   </span>
-                  <span><a href="#youtube"
+                  <span><a href="#github"
                    className='text-smallTextColor text-[18px] font-[600]'><i class="ri-github-fill"></i></a>
                   </span>
-                  <span><a href="#youtube"
+                  <span><a href="#linkedin"
                    className='text-smallTextColor text-[18px] font-[600]'><i class="ri-linkedin-fill"></i></a>
                   </span>
-                  <span><a href="#youtube"
+                  <span><a href="#instagram"
                    className='text-smallTextColor text-[18px] font-[600]'><i class="ri-instagram-line"></i></a>
                   </span>
                 </div>
