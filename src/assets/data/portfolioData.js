@@ -4,19 +4,20 @@ import portfolioImg03 from "../images/portfolio-03.jpg";
 import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
+
 
 const portfolios = [
   {
     id: "01",
-    imgUrl: portfolioImg01,
+    imgUrl: portfolioImg06,
     category: "Web Design",
-    title: "Valentine-Day-Tracker",
+    title: "Resume",
     description:
-      "A Valentine’s Day tracker that allows users to check which special day falls on a given date.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    siteUrl: "https://valentine-day-tracker.netlify.app/",
-  },
+      "Created a personal portfolio website using React and Tailwind CSS to showcase my projects, achievements, and skills in a clean, responsive layout. Integrated social media links and contact options to enable easy communication and professional networking.",
+    technologies: ["React", "Tailwind css","HTML"],
+    siteUrl: "",
+  }
+,
   {
     id: "02",
     imgUrl: portfolioImg04,
@@ -60,34 +61,15 @@ const portfolios = [
 
   {
     id: "06",
-    imgUrl: portfolioImg06,
-    category: "Web Design",
-    title: "Online Therapy Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "07",
-    imgUrl: portfolioImg07,
-    category: "Web Design",
-    title: "Appointment Booking Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "08",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "Valentine Day Tracker",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "A Valentine’s Day tracker that allows users to check which special day falls on a given date.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    siteUrl: "https://valentine-day-tracker.netlify.app/",
   },
+
 
 ];
 
