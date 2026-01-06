@@ -1,14 +1,44 @@
-import portfolioImg01 from "../images/portfolio-01.jpg";
+import campus from "../images/campus.jpg";
 import portfolioImg02 from "../images/portfolio-02.jpg";
-import portfolioImg03 from "../images/portfolio-03.jpg";
+import nextstop from "../images/nextstop.jpg";
 import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
 
 
 const portfolios = [
-  {
-    id: "01",
+
+{
+  id: "01",
+  imgUrl: campus,
+  category: "Web App",
+  title: "CampusXchange",
+  description:
+    "CampusXchange is a full-stack campus marketplace web application designed exclusively for university students to securely buy, sell, and exchange second-hand books, electronics, and academic resources. It features real-time chat, Razorpay payment integration, order tracking, and buyer–seller dashboards for seamless digital transactions within the campus community.",
+  technologies: [
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.IO",
+    "Razorpay",
+    "JWT",
+    "Tailwind CSS"
+  ],
+  siteUrl: "https://campus-x-change-gamma.vercel.app/auth/login",
+},
+{
+  id: "02",
+  imgUrl: nextstop, // use your CampusXchange thumbnail here
+  category: "Web",
+  title: "NextStop",
+  description:
+    "Developed a responsive travel web application enabling users to explore Indian destinations, discover events, and seamlessly plan trips with integrated hotel and guide booking options. The platform integrates destination exploration, trip planning with bookings, bucket list & visited tracking, event discovery, and secure Firebase authentication into a single seamless experience.",
+  technologies: ["Next.js", "React", "Tailwind CSS", "JavaScript", "HTML", "Firebase", "Framer Motion"],
+  siteUrl: "https://next-stop-two.vercel.app/",
+},
+{
+    id: "03",
     imgUrl: portfolioImg06,
     category: "Web Design",
     title: "Resume",
@@ -19,7 +49,7 @@ const portfolios = [
   }
 ,
   {
-    id: "02",
+    id: "04",
     imgUrl: portfolioImg04,
     category: "Ux",
     title: "RU Dine",
@@ -28,47 +58,7 @@ const portfolios = [
     technologies: ["Figma"],
     siteUrl: "https://www.figma.com/design/03CydG0vUkqhu5V8Eua6AS/Untitled?node-id=0-1&p=f&t=xuIuUW20xfZnuuIN-0",
   },
-  {
-    id: "03",
-    imgUrl: portfolioImg02,
-    category: "Ux",
-    title: "Lock Screen Taskflow",
-    description:
-      "This is a simple  Lockscreen Taskflow made as an assignment with prototyping. ",
-    technologies: ["Figma"],
-    siteUrl: "https://www.figma.com/design/V1wxN1AKGv3VFCaH7MZUD6/New-Figma?t=ppLSisUq9Unmgcz8-0",
-  },
-  {
-    id: "04",
-    imgUrl: portfolioImg05,
-    category: "Web Design",
-    title: "Anime Character Finder",
-    description:
-      "A basic website that allows users to find anime characters by typing their names. Users must log in before accessing the main search page.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    siteUrl: "https://anime-character-finder.netlify.app/",
-  },
-  {
-    id: "05",
-    imgUrl: portfolioImg03,
-    category: "Web Design",
-    title: "Landing Page",
-    description:
-      "An end-semester(1st) capstone project featuring a responsive design with various animations.",
-    technologies: ["HTML", "CSS"],
-    siteUrl: "https://bineet-capstone.netlify.app/",
-  },
 
-  {
-    id: "06",
-    imgUrl: portfolioImg01,
-    category: "Web Design",
-    title: "Valentine Day Tracker",
-    description:
-      "A Valentine’s Day tracker that allows users to check which special day falls on a given date.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    siteUrl: "https://valentine-day-tracker.netlify.app/",
-  },
 
 
 ];

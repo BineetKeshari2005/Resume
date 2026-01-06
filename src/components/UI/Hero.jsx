@@ -24,7 +24,14 @@ const Hero = () => {
                   className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
                   >
                   <span><i class="ri-apps-2-line"></i></span>  
-                  I'm a Frontend Developer and UI/UX Designer (with a little bit knowledge of Backend) with a passion for building visually appealing and easy-to-use websites. I work with tools like HTML, CSS, JavaScript, React, and Figma to make smooth and user-friendly web experiences.
+                Full Stack Developer & UI/UX Designer passionate about building visually appealing, intuitive, and high-performance web applications with a strong focus on user experience and accessibility.
+                </p>
+                <p data-aos='fade-left' 
+                  data-aos-duration ='1500'
+                  className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
+                  >
+                  <span><i class="ri-apps-2-line"></i></span> 
+                  Experienced in Next.js, React, JavaScript, Tailwind CSS, Node.js, Express, MongoDB, Socket.IO, Razorpay, JWT Authentication, and Figma, specializing in full-stack development, real-time systems, and secure payment-enabled platforms.
                 </p>
                 <div className="flex items-center gap-9 mt-14 ">
                   <span className='text-smallTextColor text-[15px] font-[600] '>Follow me:</span>
@@ -58,19 +65,19 @@ const Hero = () => {
                 </div>
                 <div className="mb-10">
                   <h2 className='text-headingColor font-[700] text-[32px]'>
-                    <CountUp start={0} end={6} duration={2} suffix='+'/>
+                    <CountUp start={0} end={10} duration={2} suffix='+'/>
                   </h2>
                   <h4  className='text-headingColor font-[500] text-[18pxpx]'>Projects Completed</h4>
                 </div>
                 <div className="mb-10">
                   <h2 className='text-headingColor font-[700] text-[32px]'>
-                    <CountUp start={0} end={70} duration={2} suffix='+'/>
+                    <CountUp start={0} end={100} duration={2} suffix='+'/>
                   </h2>
                   <h4  className='text-headingColor font-[500] text-[18pxpx]'>Leetcode Questions</h4>
                 </div>
                 <div className="mb-10">
                   <h2 className='text-headingColor font-[700] text-[32px]'>
-                    <CountUp start={0} end={840} duration={2} suffix='+'/>
+                    <CountUp start={0} end={800} duration={2} suffix='+'/>
                   </h2>
                   <h4  className='text-headingColor font-[500] text-[18pxpx]'>Codeforces Rating</h4>
                 </div>

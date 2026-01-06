@@ -31,7 +31,7 @@ const Services = () => {
                                                 group-hover:font-[600] text-xl'>Frontend Development</h3>
 
                                             <p className='text-[15px] text-smallTextColor group-hover:text-white font-[500] leading-7'>
-                                            Building responsive and interactive websites using clean, efficient code. Skilled in HTML, Tailwind CSS, JavaScript , and React  to  create seamless user experiences that work smoothly  on  all  devices.
+                                          I build responsive and interactive user interfaces using clean and efficient code. Skilled in HTML, Tailwind CSS, JavaScript, React, and Next.js, I create smooth and visually appealing web experiences that work seamlessly across all devices. I also use tools like Figma for UI design to deliver modern, fast, and user-friendly applications.
                                             </p>
                                         </div>
                                     </div>
@@ -59,7 +59,7 @@ const Services = () => {
                                                 group-hover:font-[600] text-xl'>Backend Development</h3>
 
                                             <p className='text-[15px] text-smallTextColor group-hover:text-white font-[500] leading-7'>
-                                            Explored backend development on a small scale as part of project features. Used MongoDB to set up a basic database for storing user information, created and tested simple APIs using Postman, and built a functional component for interacting with a chatbot.
+                                            I develop secure and scalable backend systems using Node.js, Express.js, MongoDB, and Mongoose. I build RESTful APIs, implement JWT-based authentication, role-based access control, and real-time features using Socket.IO to ensure smooth communication and reliable data handling. My focus is on writing clean, efficient server-side code that supports high performance and seamless integration with modern web applications.
                                             </p>
                                         </div>
                                     </div>
